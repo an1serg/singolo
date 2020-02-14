@@ -31,13 +31,17 @@
 }
 
 .container {
-  width: 1020px;
   margin: 0 auto;
+  width: 1020px;
 }
 
 /*
   Header
 */
+.bg-header{
+  background: #2d303a;
+}
+
 header {
   height: 89px;
   background: #2d303a;
@@ -93,16 +97,15 @@ header {
 }
 
 .nav-item a:hover {
-  text-decoration: underline;
-}
-
-.nav .active {
   color: #f06c64;
 }
-
 /*
   Slider
 */
+.bg-main{
+  background: #f06c64;
+}
+
 main {
   height: 594px;
   background: #f06c64;
@@ -153,6 +156,9 @@ main {
 /*
   Services
 */
+.bg-footer{
+  background: #f2f2f2;
+}
 footer {
   height: 494px;
   background: #f2f2f2;
@@ -180,6 +186,7 @@ footer {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 17px;
+  text-align: justify;
 }
 
 .services_list {
