@@ -64,12 +64,9 @@ header {
   padding-bottom: 40px;
   letter-spacing: -0.02em;
 }
-
-.header__logo h1::after {
-  content: "*";
+.header__logo h1 span{
   color: #f06c64;
 }
-
 .nav {
   margin-top: 37px;
   display: flex;
