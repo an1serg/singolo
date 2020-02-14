@@ -30,9 +30,11 @@
 }
 
 header {
-  height: 95px;
+  height: 89px;
   background: #2d303a;
   display: flex;
+  border-bottom: 6px solid;
+  border-color: #323746;
 }
 
 .header__logo {
@@ -83,6 +85,12 @@ header {
 .nav-item a:hover{
   text-decoration: underline;
 }
-#active {
+.nav .active {
   color: #f06c64;
+}
+main{
+  height: 594px;
+  background: #f06c64;
+  border-bottom: 6px solid;
+  border-color: #ea676b;
 }
